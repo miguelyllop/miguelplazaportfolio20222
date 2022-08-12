@@ -449,7 +449,8 @@ color: #000000;
 .alternate-h1 {
   color: #929292;
   font-size: 2rem;
-    max-width: 40rem;
+  width: 100%;
+    max-width: 40rem!important;
 }
 
 .about-paragraph {
@@ -485,6 +486,7 @@ color: #000000;
     margin-top: 8rem;
       margin-right: 1rem;
       margin-left: 1rem;
+      max-height: 100%;
   }
   }
 
