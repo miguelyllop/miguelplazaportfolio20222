@@ -453,6 +453,15 @@ color: #000000;
     max-width: 40rem!important;
 }
 
+@media (max-width:768px){
+  .alternate-h1 {
+    color: #929292;
+    font-size: 1.5rem;
+    width: 100%;
+      max-width: 40rem!important;
+  }
+  }
+
 .about-paragraph {
   font-family: 'Inconsolata', monospace;
   letter-spacing: .05rem;
@@ -464,6 +473,20 @@ color: #000000;
   margin-top: 2rem;
   line-height: 125%;
 }
+
+@media (max-width:768px){
+  .about-paragraph {
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: .05rem;
+    word-spacing: -5px;
+    color: #929292 !important;
+    max-width: 120rem !important;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    line-height: 125%;
+  }
+  }
 
 .project-title {
   margin-bottom: 1.5rem;
