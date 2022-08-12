@@ -561,81 +561,6 @@ font-size: 1.5rem;
   }
   }
 
-.project-component-1 {
-  display: inline-block;
-  text-decoration: none;
-  color: #F3F5F6;
-  background-color: transparent!important;
-  border-radius: 16px;
-  border: 1px solid #B3BBC9;
-  padding: 2rem;
-  margin: 0 0 1rem 0;
-  width: auto;
-  height: 20rem;
-  flex-grow: 1;
-  flex-basis: 600px;
-}
-
-@media (max-width:768px){
-  .project-component-1{
-    display: block;
-    text-decoration: none;
-    color: #F3F5F6;
-    border-radius: 16px;
-    border: 1px solid #B3BBC9;
-    background-color: transparent!important;
-    padding: 2rem;
-    margin: 0 0 1rem 0;
-    width: auto;
-    height: 18rem;
-    flex-grow: 1;
-    flex-basis: 300px;
-  }
-  }
-
-.project-component-1:hover, .project-component-1:active, .project-component-1:focus {
- color: transparent;
-  background-image: url("https://sgwearshop.com/wp-content/uploads/2021/11/DSC08792.jpg");
-  background-size: cover;
-   opacity: 0.8;
-   background-repeat: no-repeat;
-  background-position: center 50%;
-  background-color: #48755a;
-}
-
-.project-component-4 {
-  display: inline-block;
-  text-decoration: none;
-  color: #677286;
-  background-color: transparent!important;
-  padding: 2rem;
-  margin: 0 0 1rem 0;
-  border-radius: 16px;
-  border: 1px solid #B3BBC9;
-  width: auto;
-  height: 20rem;
-  flex-grow: 1;
-  flex-basis: 600px;
-}
-
-@media (max-width:768px){
-  .project-component-4{
-    display: inline-block;
-    text-decoration: none;
-    color: #F3F5F6;
-    background-color: transparent!important;
-    border-radius: 16px;
-    border: 1px solid #B3BBC9;
-    padding: 2rem;
-    margin: 0 0 1rem 0;
-    width: auto;
-    height: 18rem;
-    flex-grow: 1;
-    flex-basis: 300px;
-  }
-  }
-
-
 .project-component-2 {
   display: inline-block;
   text-decoration: none;
@@ -669,13 +594,12 @@ font-size: 1.5rem;
   }
 
 .project-component-2:hover, .project-component-2:active, .project-component-2:focus {
- color: transparent;
-  background-image: url("https://i.ibb.co/hYw4FfM/Presentation.jpg");
+ color: none;
   background-size: cover;
-   opacity: 0.8;
+   opacity: 0.9;
    background-repeat: no-repeat;
   background-position: center 50%;
-  background-color: #48755a;
+  background-color: transparent;
 }
 
 .full-bleed {
