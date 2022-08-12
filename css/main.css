@@ -483,8 +483,8 @@ color: #000000;
 @media (max-width:768px){
   .intro {
     margin-top: 8rem;
-      margin-right: 2rem;
-      margin-left: 2rem;
+      margin-right: 1rem;
+      margin-left: 1rem;
   }
   }
 
@@ -505,8 +505,8 @@ display: -ms-flex;
 @media (max-width:768px){
   .intro2 {
     margin-top: 8rem;
-      margin-right: 2rem;
-      margin-left: 2rem;
+      margin-right: 1rem;
+      margin-left: 1rem;
   }
   }
 
