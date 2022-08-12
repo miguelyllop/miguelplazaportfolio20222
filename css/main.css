@@ -36,6 +36,7 @@ margin: 0 0 1rem 0;
   flex-basis: 500px;
 }
 
+
 h2 {
   font-family: 'Inconsolata', monospace;
   letter-spacing: .1rem;
@@ -224,6 +225,14 @@ em {
   font-size: 21px;
   margin-right: 1rem;
   color: white;
+}
+
+.flecha {
+  width: 10%;
+  height: 20%;
+  position: relative;
+  top:30%;
+  z-index: -3;
 }
 
 .footer {
@@ -499,7 +508,9 @@ font-size: 1.5rem;
   display: inline-block;
   text-decoration: none;
   color: #F3F5F6;
-  background-color: #677286;
+  background-color: transparent!important;
+  border-radius: 16px;
+  border: 1px solid #B3BBC9;
   padding: 2rem;
   margin: 0 0 1rem 0;
   width: auto;
@@ -513,7 +524,9 @@ font-size: 1.5rem;
     display: block;
     text-decoration: none;
     color: #F3F5F6;
-    background-color: #1F2020;
+    border-radius: 16px;
+    border: 1px solid #B3BBC9;
+    background-color: transparent!important;
     padding: 2rem;
     margin: 0 0 1rem 0;
     width: auto;
@@ -537,9 +550,11 @@ font-size: 1.5rem;
   display: inline-block;
   text-decoration: none;
   color: #677286;
-  background-color: #677286;
+  background-color: transparent!important;
   padding: 2rem;
   margin: 0 0 1rem 0;
+  border-radius: 16px;
+  border: 1px solid #B3BBC9;
   width: auto;
   height: 20rem;
   flex-grow: 1;
@@ -548,10 +563,12 @@ font-size: 1.5rem;
 
 @media (max-width:768px){
   .project-component-4{
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: #F3F5F6;
-    background-color: #1F2020;
+    background-color: transparent!important;
+    border-radius: 16px;
+    border: 1px solid #B3BBC9;
     padding: 2rem;
     margin: 0 0 1rem 0;
     width: auto;
@@ -575,7 +592,9 @@ font-size: 1.5rem;
   display: inline-block;
   text-decoration: none;
   color: #F3F5F6;
-  background-color: #677286;
+  background-color: transparent!important;
+  border-radius: 16px;
+  border: 1px solid #B3BBC9;
   padding: 2rem;
   margin: 0 0 1rem 0;
   width: auto;
@@ -586,10 +605,12 @@ font-size: 1.5rem;
 
 @media (max-width:768px){
   .project-component-2{
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: #F3F5F6;
-    background-color: #1F2020;
+    background-color: transparent!important;
+    border-radius: 16px;
+    border: 1px solid #B3BBC9;
     padding: 2rem;
     margin: 0 0 1rem 0;
     width: auto;
@@ -619,6 +640,7 @@ font-size: 1.5rem;
   font-size: 1.2rem;
   line-height: 2.2rem;
 }
+
 
 .main-content {
   max-width: 40rem;
