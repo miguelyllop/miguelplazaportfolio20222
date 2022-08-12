@@ -22,6 +22,62 @@ hr {
   margin:2rem;
 }
 
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+.buttonbox {
+    padding: 16px 24px;
+    spacing: 4px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-family:'Inconsolata', monospace;
+    font-size: 18px;
+    color: black;
+    position: relative;
+    top:30%;
+    float: right;
+}
+
+.buttonbox:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
 section {
   margin:2rem;
 }
@@ -386,61 +442,6 @@ color: #000000;
   line-height: 125%;
 }
 
-button {
-    appearance: auto;
-    writing-mode: horizontal-tb !important;
-    font-style: ;
-    font-variant-ligatures: ;
-    font-variant-caps: ;
-    font-variant-numeric: ;
-    font-variant-east-asian: ;
-    font-weight: ;
-    font-stretch: ;
-    font-size: ;
-    font-family: ;
-    text-rendering: auto;
-    color: buttontext;
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    box-sizing: border-box;
-    background-color: white;
-    margin: 0em;
-    padding: 1px 6px;
-    border-width: 2px;
-    border-style: outset;
-    border-color: buttonborder;
-    border-image: initial;
-}
-
-.buttonbox {
-    padding: 16px 24px;
-    spacing: 4px;
-    background-color: white;
-    border: none;
-    border-radius: 30px;
-    font-family:'Inconsolata', monospace;
-    font-size: 18px;
-    color: black;
-    position: relative;
-    top:30%;
-    float: right;
-}
-
-.buttonbox:hover {
-  background-color: black;
-  color: white;
-  transition: all 0.3s ease;
-  border: 1px solid white;
-  border-radius: 30px;
-}
 .project-title {
   margin-bottom: 1.5rem;
 }
