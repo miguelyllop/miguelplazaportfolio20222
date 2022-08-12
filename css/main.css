@@ -230,6 +230,8 @@ em {
 .flecha {
   width: 10%;
   height: 10%;
+  max-width: 80px;
+  max-height: 40px;
   position: relative;
   top:30%;
   z-index: -3;
