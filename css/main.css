@@ -233,7 +233,7 @@ em {
     }
 
     .nav-item-white {
-      font-family: 'Inconsolata', monospace;
+      font-family: 'Inconsolata';
       font-weight: 400;
       letter-spacing: .1rem;
       font-size: 21px;
@@ -242,7 +242,7 @@ em {
     }
 
     .nav-item-2-white {
-      font-family: 'Inconsolata', monospace;
+      font-family: 'Inconsolata';
       font-weight: 400;
       letter-spacing: .1rem;
       font-size: 21px;
