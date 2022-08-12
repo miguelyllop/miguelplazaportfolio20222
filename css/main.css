@@ -292,6 +292,28 @@ em {
   top:40%;
 }
 
+.scrolling-wrapper {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  max-height: 240px !important;
+  overflow-x: auto !important;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card {
+    min-width: 110px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    background-color: white;
+    flex: 0 0 auto;
+    margin-right: 16px;
+  }
+
+
 .footer {
   display: grid;
     margin: 40px 40px 0px;
@@ -453,7 +475,7 @@ color: #000000;
 .intro {
   margin-top: 10rem;
   max-width: 60rem;
-  margin-bottom: 22%;
+  margin-bottom: 80px;
   margin-right: 2rem;
   margin-left: 2rem;
 }
@@ -769,6 +791,16 @@ font-size: 1.5rem;
   flex-grow: 1;
   flex-basis: 17rem;
   margin-right: 1rem;
+}
+
+.posters {
+  min-width: 110px;
+  height: 240px;
+  line-height: 110px;
+  text-align: center;
+  background-color: white;
+  flex: 0 0 auto;
+  margin-right: 16px;
 }
 
 .styleguide-h1 {
