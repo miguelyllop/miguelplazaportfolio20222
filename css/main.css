@@ -514,6 +514,23 @@ color: #000000;
   }
   }
 
+  .intro3 {
+    margin-top: 5rem;
+    max-width: 100%;
+    margin-bottom: 80px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  @media (max-width:768px){
+    .intro3 {
+      margin-top: 4rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        max-height: 100%;
+    }
+    }
+
 .intro2 {
 display: -ms-flex;
  display: flex;
