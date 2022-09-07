@@ -10,10 +10,6 @@ body {
    padding-top: 56px;
 }
 
-@font-face {
-  font-family: 'VG5000';
-    src: url(../fonts/vg5000-master/fonts/webfonts/VG5000-Regular_web.otf);
-}
 
 @font-face {
   font-family: 'KulimPark';
