@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: 'KulimPark';
+  font-family: 'KulimPark', sans-serif;
   color: #F3F5F6;
    background-color: #000000;
    padding-top: 56px;
@@ -135,7 +135,7 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  font-family: 'KulimPark';
+  font-family: 'KulimPark', sans-serif;
   letter-spacing: .01rem;
   line-height: 1.7rem;
   max-width: 40rem;
