@@ -12,10 +12,12 @@ body {
 
 
 @font-face {
-  font-family: 'KulimPark';
-    src: url('../fonts/kulimpark/fonts/ttf/kulimparkregular.ttf');
+    font-family: 'KulimPark';
+    src: url('../fonts/kulimparkregular-webfont.woff2') format('woff2'),
+         url('../fonts/kulimparkregular-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
-    font-weight: 400;
+
 }
 
 .alternate {
