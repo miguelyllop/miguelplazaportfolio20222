@@ -17,6 +17,8 @@ body {
 
 @font-face {
   font-family: 'KulimPark';
+  src: url('KulimPark-Regular.otf');
+  src: url('KulimPark-Regular.ttf');
     src: url(../fonts/KulimPark/fonts/otf/KulimPark-Regular.otf);
     src: local(../fonts/KulimPark/fonts/otf/KulimPark-Regular.otf);
     src: url(../fonts/KulimPark/fonts/ttf/KulimPark-Regular.ttf);
