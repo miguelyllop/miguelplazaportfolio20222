@@ -4,9 +4,24 @@
 }
 
 body {
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'KulimPark';
   color: #F3F5F6;
    background-color: #000000;
+}
+
+@font-face {
+  font-family: 'VG5000';
+  src: local(VG5000-Regular_web.otf);
+    src: local('VG5000');
+    src: local('VG5000-Regular');
+    src: url("fonts/vg5000-master/fonts/webfonts/VG5000-Regular_web.otf")format('otf');
+    src: url(../fonts/vg5000-master/fonts/webfonts/VG5000-Regular_web.otf);
+      src: local("fonts/vg5000-master/fonts/webfonts/VG5000-Regular_web.otf") format('otf');
+}
+
+@font-face {
+  font-family: 'KulimPark';
+    src: url(../fonts/KulimPark/fonts/otf/KulimPark-Regular.otf);
 }
 
 .alternate {
@@ -120,7 +135,7 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  font-family: 'Inconsolata';
+  font-family: 'KulimPark';
   letter-spacing: .01rem;
   line-height: 1.7rem;
   max-width: 40rem;
@@ -153,6 +168,7 @@ em {
 }
 
 .header-nav {
+  font-family: 'Inconsolata', monospace !important;
   display:block;
   background-color: #000;
   position: fixed;
@@ -202,7 +218,7 @@ em {
 }
 
 .nav-item {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Inconsolata', monospace !important;
   font-weight: 400;
   letter-spacing: .1rem;
   font-size: 21px;
@@ -211,7 +227,7 @@ em {
 }
 
 .nav-item-2 {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Inconsolata', monospace !important;
   font-weight: 400;
   letter-spacing: .1rem;
   font-size: 21px;
@@ -234,7 +250,7 @@ em {
     }
 
     .nav-item-white {
-      font-family: 'Inconsolata';
+      font-family: 'Inconsolata', monospace;
       font-weight: 400;
       letter-spacing: .1rem;
       font-size: 21px;
@@ -243,7 +259,7 @@ em {
     }
 
     .nav-item-2-white {
-      font-family: 'Inconsolata';
+      font-family: 'Inconsolata', monospace;
       font-weight: 400;
       letter-spacing: .1rem;
       font-size: 21px;
@@ -569,7 +585,7 @@ display: -ms-flex;
 }
 
 .home-h2 {
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 1.3rem;
   flex-basis: 100%;
   font-weight: 300;
@@ -854,7 +870,7 @@ font-size: 1.5rem;
 }
 
 .styleguide-title {
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 1rem;
   font-weight: 300;
   margin-left: 0;
@@ -869,7 +885,7 @@ font-size: 1.5rem;
 }
 
 .styleguide-h2 {
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 1.3rem;
   flex-basis: 100%;
   font-weight: 300;
