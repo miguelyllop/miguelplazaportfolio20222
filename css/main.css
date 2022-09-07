@@ -15,7 +15,7 @@ body {
   font-family: 'KulimPark';
   font-style: normal;
   font-weight: 400;
-    src: url(../fonts/kulimpark/fonts/ttf/kulimpark-regular.ttf);
+    src: url('../fonts/kulimpark/fonts/ttf/kulimpark-regular.ttf');
 }
 
 .alternate {
