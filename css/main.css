@@ -11,16 +11,26 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src:        url('../fonts/grot/SpaceGrotesk-Regular.woff2') format('woff2'),
+        url('../fonts/grot/SpaceGrotesk-Regular.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 *, *::after, *::before {
   box-sizing: border-box;
   margin:0rem;
 }
 
 body {
-  font-family: 'KulimPark', sans-serif;
+  font-family: 'Inconsolata', monospace;
   color: #F3F5F6;
    background-color: #000000;
    padding-top: 56px;
+   font-size: 1.25rem;
 }
 
 
@@ -117,7 +127,7 @@ h2 {
 
 h3 {
   font-family: 'Inconsolata', monospace;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: .1rem;
   font-size: 1.2rem;
   margin-bottom: 1rem;
@@ -135,12 +145,12 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  font-family: 'KulimPark', sans-serif;
+  font-family: 'Inconsolata', monospace;
   letter-spacing: .01rem;
-  line-height: 1.7rem;
+  line-height: 1.5rem;
   max-width: 40rem;
   margin-bottom: 2.5rem;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 .double-paragraph {
