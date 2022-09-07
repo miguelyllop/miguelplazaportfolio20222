@@ -19,6 +19,7 @@ body {
   font-family: 'KulimPark';
   font-style: normal;
   font-weight: 400;
+  src: url(../fonts/KulimPark/fonts/otf/KulimPark-Regular.otf) format('otf');
   src: url(https://github.com/noponies/Kulim-Park/raw/master/fonts/otf/KulimPark-Regular.otf) format('otf');
   src: url(https://github.com/noponies/Kulim-Park/raw/master/fonts/otf/KulimPark-Regular.ttf) format('ttf');
     src: url(../fonts/KulimPark/fonts/otf/KulimPark-Regular.otf);
