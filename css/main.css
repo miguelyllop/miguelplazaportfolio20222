@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'KulimPark';
+    src: url('../fonts/kulimparkregular-webfont.woff2') format('woff2'),
+         url('../fonts/kulimparkregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *, *::after, *::before {
   box-sizing: border-box;
   margin:0rem;
@@ -10,15 +18,6 @@ body {
    padding-top: 56px;
 }
 
-
-@font-face {
-    font-family: 'KulimPark';
-    src: url('../fonts/kulimparkregular-webfont.woff2') format('woff2'),
-         url('../fonts/kulimparkregular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 .alternate {
   background-color: #000000;
