@@ -329,6 +329,17 @@ em {
 .scrolling-wrapper::-webkit-scrollbar {
     display: none;
   }
+  .scrolling-wrapper2 {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    max-height: auto !important;
+    overflow-x: auto !important;
+   gap: 24px;
+  }
+
+  .scrolling-wrapper2::-webkit-scrollbar {
+      display: none;
+    }
 
   .card {
     min-width: 110px;
@@ -665,7 +676,9 @@ font-size: 1.5rem;
   height: 20rem;
   flex-grow: 1;
   flex-basis: 600px;
+   position: relative;
 }
+
 
 @media (max-width:768px){
   .project-component-2{
@@ -945,6 +958,22 @@ code {
   width: 10rem;
   margin: 1rem;
 }
+
+.logo-index {
+  width: 80px;
+height: 80px;
+position: absolute;
+top: 2rem;
+right: 2rem;
+}
+.logo-index2 {
+  width: auto;
+height: 40px;
+position: absolute;
+top: 2rem;
+right: 2rem;
+}
+
 /*END OF STYLE GUIDE STYLING*/
 
 .wrapper2 {
